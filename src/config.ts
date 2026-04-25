@@ -26,8 +26,8 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "WangKaiCode",
 	subtitle: "TechBlog",
-	siteURL: "", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteURL: "http://localhost:4321/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2026-4-25", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -43,7 +43,7 @@ export const siteConfig: SiteConfig = {
 		anime: false, // 番剧页面开关
 		diary: false, // 日记页面开关
 		friends: false, // 友链页面开关
-		projects: true, // 项目页面开关
+		projects: false, // 项目页面开关
 		skills: false, // 技能页面开关
 		timeline: false, // 时间线页面开关
 		albums: false, // 相册页面开关
@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "WangKaiCode",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "assets/home/home.webp",
+		icon: "assets/home/home.ico",
 		// 网站Logo图片路径
 		logo: "assets/home/default-logo.webp",
 	},
@@ -125,16 +125,16 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/1.png",
+				"/assets/desktop-banner/2.png",
+				"/assets/desktop-banner/3.png",
+				"/assets/desktop-banner/4.png",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/1.png",
+				"/assets/mobile-banner/2.png",
+				"/assets/mobile-banner/3.png",
+				"/assets/mobile-banner/4.png",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -241,16 +241,16 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
+			"/assets/desktop-banner/1.png",
+			"/assets/desktop-banner/2.png",
+			"/assets/desktop-banner/3.png",
+			"/assets/desktop-banner/4.png",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
+			"/assets/mobile-banner/1.png",
+			"/assets/mobile-banner/2.png",
+			"/assets/mobile-banner/3.png",
+			"/assets/mobile-banner/4.png",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -298,27 +298,27 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				{
-					name: "Anime",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
-					name: "Diary",
-					url: "/diary/",
-					icon: "material-symbols:book",
-				},
-				{
-					name: "Gallery",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
-				{
-					name: "Devices",
-					url: "/devices/",
-					icon: "material-symbols:devices",
-					external: false,
-				},
+				// {
+				// 	name: "Anime",
+				// 	url: "/anime/",
+				// 	icon: "material-symbols:movie",
+				// },
+				// {
+				// 	name: "Diary",
+				// 	url: "/diary/",
+				// 	icon: "material-symbols:book",
+				// },
+				// {
+				// 	name: "Gallery",
+				// 	url: "/albums/",
+				// 	icon: "material-symbols:photo-library",
+				// },
+				// {
+				// 	name: "Devices",
+				// 	url: "/devices/",
+				// 	icon: "material-symbols:devices",
+				// 	external: false,
+				// },
 			],
 		},
 		{
@@ -343,60 +343,60 @@ export const navBarConfig: NavBarConfig = {
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
+				// {
+				// 	name: "Projects",
+				// 	url: "/projects/",
+				// 	icon: "material-symbols:work",
+				// },
+				// {
+				// 	name: "Skills",
+				// 	url: "/skills/",
+				// 	icon: "material-symbols:psychology",
+				// },
+				// {
+				// 	name: "Timeline",
+				// 	url: "/timeline/",
+				// 	icon: "material-symbols:timeline",
+				// },
 			],
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
+	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "ProfileConfigName",
+	bio: "ProfileConfig~~~~",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
-		{
-			name: "Bilibili",
-			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
+		// {
+		// 	name: "Bilibili",
+		// 	icon: "fa7-brands:bilibili",
+		// 	url: "https://space.bilibili.com/701864046",
+		// },
+		// {
+		// 	name: "Gitee",
+		// 	icon: "mdi:git",
+		// 	url: "https://gitee.com/matsuzakayuki",
+		// },
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/matsuzaka-yuki",
 		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
-		},
+		// {
+		// 	name: "Codeberg",
+		// 	icon: "simple-icons:codeberg",
+		// 	url: "https://codeberg.org",
+		// },
+		// {
+		// 	name: "Discord",
+		// 	icon: "fa7-brands:discord",
+		// 	url: "https://discord.gg/MqW6TcQtVM",
+		// },
 	],
 };
 
@@ -470,8 +470,8 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	title: "这是公告标题", // 公告标题，填空使用i18n字符串Key.announcement
+	content: "这是公告内容", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -482,8 +482,8 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
-	showFloatingPlayer: true, // 显示悬浮播放器 UI
+	enable: false, // 启用音乐播放器功能
+	showFloatingPlayer: false, // 显示悬浮播放器 UI
 	floatingEntryMode: "fab", // 悬浮入口模式："default" 为独立悬浮播放器，"fab" 为集成到通用 FAB 组
 	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
@@ -529,13 +529,13 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 动画延迟时间
 			animationDelay: 50,
 		},
-		{
-			// 组件类型：侧栏音乐组件
-			type: "music-sidebar",
-			position: "sticky",
-			class: "onload-animation",
-			animationDelay: 100,
-		},
+		// {
+		// 	// 组件类型：侧栏音乐组件
+		// 	type: "music-sidebar",
+		// 	position: "sticky",
+		// 	class: "onload-animation",
+		// 	animationDelay: 100,
+		// },
 		{
 			// 组件类型：分类组件
 			type: "categories",
@@ -601,11 +601,11 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// 侧栏组件布局配置
 	components: {
 		left: ["profile", "announcement", "tags", "card-toc"],
-		right: ["site-stats", "calendar", "categories", "music-sidebar"],
+		right: ["site-stats", "calendar", "categories"],
 		drawer: [
 			"profile",
 			"announcement",
-			"music-sidebar",
+			// "music-sidebar",
 			"categories",
 			"tags",
 		],
@@ -672,7 +672,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "Welcome to WangKaiCode Website!", // 欢迎词
 		touch: [
 			"What are you doing?",
 			"Stop touching me!",
