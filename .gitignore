@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# 忽略 Obsidian 配置文件夹
+src/content/posts/.obsidian/
+
 # generated types
 .astro/
 demo
