@@ -2,14 +2,14 @@
 title: ACM输入输出格式
 published: 2026-04-28
 pinned: true
-description: 以Java为例介绍ACM输入输出格式
+description:
 tags:
 category: Java
 author: WangKaiCode
 sourceLink: https://github.com/WangKaiCode/TechBlog/src/content/posts/
-draft: false
+draft: true
 date: 2026-04-28
-image:
+image: '""'
 ---
 # ACM输入输出格式
 ## 已知输入数据结构
