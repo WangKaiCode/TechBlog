@@ -1,20 +1,17 @@
 ---
-title: docker安装MySQL
-published: 2025-08-20
-description: 使用docker安装MySQL.
-tags: [docker, MySQL]
-category: docker
-licenseName: "Unlicensed"
+title: Docker-InstallMySQL-Tutorial
+published: 2026-04-28
+pinned: false
+description: Docker安装MySQL教程
+tags: []
+category: Docker
 author: WangKaiCode
-sourceLink: "https://github.com/WangKaiCode"
-date: 2025-01-20
-pubDate: 2025-01-20
+sourceLink: https://github.com/WangKaiCode/TechBlog/src/content/posts/
+draft: false
+date: 2026-04-28
+image: ""
 ---
-
 ## docker安装MySQL
-
-
-
 ### 拉取镜像
 
 1. 查看本机存储的镜像

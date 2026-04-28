@@ -1,30 +1,25 @@
 ---
-title: 小白学网络
-published: 2025-10-07
-pinned: true
-description: 自学网络的笔记
-category: 计算机网络
-licenseName: "Unlicensed"
+title: 小白学网络——应用层
+published: 2026-04-28
+pinned: false
+description: 计算机网络学习
+tags: []
+category: Computer Network
 author: WangKaiCode
-sourceLink: "https://github.com/WangKaiCode"
+sourceLink: https://github.com/WangKaiCode/TechBlog/src/content/posts/
 draft: false
-date: 2025-10-06
-pubDate: 2025-10-07
+date: 2026-04-28
+image: ""
 ---
-
 # 小白学网络——应用层
-
 ------
 
 想要获取参考书籍可以前往这个链接[CS-Books: 超过1000本的计算机经典书籍](https://github.com/forthespada/CS-Books)
 
 ------
-
-
-
 ## OSI模型和TCP/IP体系
 
-<img src="./OSI和TCP_IP体系结构对比图.png" style="zoom:50%;" />
+<img src="./images/OSI和TCP_IP体系结构对比图.png" style="zoom:50%;" />
 
 应用层通过使用下面各层所提供的服务，直接向用户提供服务，是计算机网络与用户之间的界面或接口。应用层提供的是服务，而不是提供具体的网络应用软件。
 
@@ -54,11 +49,11 @@ URI(Uniform Resource Identifier)统一资源标识符。
 
 URL(Uniform Resource Locator)统一资源定位符。与URI相比，我们更熟悉URL，URL是我们访问Web页面时需要输入的网址。
 
-<img src="./URI.png" style="zoom:50%;" />
+<img src="./images/URI.png" style="zoom:50%;" />
 
-<img src="./URI格式.png" style="zoom:50%;" />
+<img src="./images/URI格式.png" style="zoom:50%;" />
 
-<img src="./URI格式2.png" style="zoom:50%;" />
+<img src="./images/URI格式2.png" style="zoom:50%;" />
 
 ##### 非持续连接和持续连接
 
@@ -70,17 +65,17 @@ URL(Uniform Resource Locator)统一资源定位符。与URI相比，我们更熟
 
 可以参考[MDN Web Docs](https://developer.mozilla.org/zh-CN/) 中的文章或查看RFC官方文档
 
-<img src="./HTTP报文格式.png" style="zoom:50%;" />
+<img src="./images/HTTP报文格式.png" style="zoom:50%;" />
 
-<img src="./请求报文.png" style="zoom: 50%;" />
+<img src="./images/请求报文.png" style="zoom: 50%;" />
 
-<img src="./响应报文.png" style="zoom:50%;" />
+<img src="./images/响应报文.png" style="zoom:50%;" />
 
 
 
-<img src="./报文示例.png" style="zoom:50%;" />
+<img src="./images/报文示例.png" style="zoom:50%;" />
 
-<img src="./状态码.png" style="zoom:50%;" />
+<img src="./images/状态码.png" style="zoom:50%;" />
 
 
 
@@ -88,15 +83,15 @@ URL(Uniform Resource Locator)统一资源定位符。与URI相比，我们更熟
 
 HTTP协议的请求和响应报文中必定包含HTTP首部。首部内容为客户端和服务器分别处理请求和响应提供所需要的信息。
 
-<img src="./通用1.png" style="zoom:75%;" />
+<img src="./images/通用1.png" style="zoom:75%;" />
 
-![](./请求首部.png)
+![](请求首部.png)
 
-![](./响应首部.png)
+![](响应首部.png)
 
-![](./续.png)
+![](续.png)
 
-![](./实体首部.png)
+![](实体首部.png)
 
 非HTTP/1.1首部字段如：
 

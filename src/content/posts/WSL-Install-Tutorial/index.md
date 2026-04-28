@@ -1,18 +1,18 @@
 ---
-title: WSL安装教程
-published: 2025-08-20
-pinned: true
-description: A simple tutorial of the WSL.
-tags: [WSL, docker]
+title: WSL小白安装教程
+published: 2026-04-28
+pinned: false
+description: "小白视角介绍WSL的安装和使用"
+tags:
+  - WSL
+  - windows
 category: Linux
-licenseName: "Unlicensed"
 author: WangKaiCode
-sourceLink: "https://github.com/WangKaiCode"
+sourceLink: https://github.com/WangKaiCode/TechBlog/src/content/posts/
 draft: false
-date: 2025-08-20
-pubDate: 2025-08-20
+date: 2026-04-28
+image: ""
 ---
-
 # WSL小白安装教程
 
 ## 概述

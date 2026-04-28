@@ -1,18 +1,17 @@
 ---
-title: "Docker 安装教程"
-published: 2025-08-20
+title: Docker-Install-Tutorial
+published: 2026-04-28
 pinned: false
-description: "详细介绍Docker的安装步骤"
-tags: [docker,linux]
-category: "docker"
-licenseName: "MIT"
-author: "WangKaiCode"
-sourceLink: "https://github.com/WangKaiCode"
+description: Ubuntu24.03安装docker教程
+tags:
+  - docker
+category: Linux
+author: WangKaiCode
+sourceLink: https://github.com/WangKaiCode/TechBlog/src/content/posts/
 draft: false
-date: 2025-08-20
-pubDate: 2025-08-20
+date: 2026-04-28
+image: ""
 ---
-
 ## Ubuntu24.03安装docker
 
 > 参考[dockerdocs官方文档](https://docs.docker.com/engine/install/ubuntu/)
@@ -45,7 +44,7 @@ pubDate: 2025-08-20
 
 ### 检查安装前的环境
 
-![卸载旧版本docekr](./卸载旧版本docekr.png)
+![卸载旧版本docekr](卸载旧版本docekr.png)
 
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
