@@ -85,13 +85,13 @@ HTTP协议的请求和响应报文中必定包含HTTP首部。首部内容为客
 
 <img src="./images/通用1.png" style="zoom:75%;" />
 
-![](请求首部.png)
+<img src="./images/请求首部.png" style="zoom:50%;" />
 
-![](响应首部.png)
+<img src="./images/响应首部.png" style="zoom:50%;" />
 
-![](续.png)
+<img src="./images/续.png" style="zoom:50%;" />
 
-![](实体首部.png)
+<img src="./images/实体首部.png" style="zoom:50%;" />
 
 非HTTP/1.1首部字段如：
 
